@@ -100,7 +100,7 @@ export default function Home() {
         {/* Right Image */}
      <div className="flex justify-center items-center mt-20  md:justify-end w-full md:mt-[150px]">
   <Image
-    src="/Imgbg.png"
+    src="/imgbg.png"
     alt="Delicious food"
     width={400}
     height={300}
