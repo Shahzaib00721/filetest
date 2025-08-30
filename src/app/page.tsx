@@ -20,7 +20,7 @@ import { MapPin, Search, Truck, Package, LogIn } from "lucide-react";
 export default function Home() {
   return (
     <>
-    <section className="bg-gradient-to-r from-yellow-400 to-yellow-500 h-130 flex flex-col">
+    <section className="bg-gradient-to-r from-yellow-400 to-yellow-500  flex flex-col">
       
       {/* Top Navbar */}
       <header className="bg-white shadow-sm px-4 md:px-6 py-3 flex justify-between items-center">
