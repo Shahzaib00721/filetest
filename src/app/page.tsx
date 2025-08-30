@@ -48,11 +48,11 @@ export default function Home() {
             <span className="hidden sm:inline">Search Food</span>
           </button>
           <button 
-            className="px-3 sm:px-4 py-2 bg-gradient-to-r  bg-transparent rounded-md text-orange-500 shadow-md font-semibold hover:opacity-90 flex items-center gap-1 focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition text-sm"
+            className="px-3   sm:px-4 py-2 bg-gradient-to-r  bg-transparent rounded-md text-orange-500  shadow-lg font-semibold hover:opacity-90 flex items-center gap-1 focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition text-sm"
             aria-label="Login"
           >
             <LogIn className="w-4 h-4 flex-shrink-0 " aria-hidden="true" /> 
-            <span className="hidden sm:inline">Login</span>
+            <span className="hidden sm:inline ">Login</span>
           </button>
         </div>
       </header>
@@ -98,12 +98,12 @@ export default function Home() {
         </div>
 
         {/* Right Image */}
-     <div className="flex justify-center items-center  md:justify-end w-full mt-[30px]">
+     <div className="flex justify-center items-center mt-20  md:justify-end w-full md:mt-[150px]">
   <Image
     src="/Imgbg.png"
     alt="Delicious food"
     width={400}
-    height={100}
+    height={300}
     className="rounded-full object-cover object-bottom shadow-lg shadow-black"
     priority
   />
