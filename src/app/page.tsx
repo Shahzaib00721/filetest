@@ -20,7 +20,7 @@ import { MapPin, Search, Truck, Package, LogIn } from "lucide-react";
 export default function Home() {
   return (
     <>
-    <section className="bg-gradient-to-r from-yellow-400 to-yellow-500 min-h-screen flex flex-col">
+    <section className="bg-gradient-to-r from-yellow-400 to-yellow-500 h-130 flex flex-col">
       
       {/* Top Navbar */}
       <header className="bg-white shadow-sm px-4 md:px-6 py-3 flex justify-between items-center">
@@ -70,7 +70,7 @@ export default function Home() {
           </p>
 
           {/* Search Box */}
-          <div className="bg-white p-4 rounded-[8px] shadow-md  max-w-md mx-auto md:mx-0 md:w-250 ">
+          <div className="bg-white p-4 rounded-[8px] shadow-md h-70 max-w-100  mx-auto md:mx-0 md:max-w-160 md:h-40 ">
             
             {/* Delivery / Pickup Toggle - responsive */}
             <div className="flex flex-col sm:flex-row  rounded-[16px] overflow-hidden mb-4">
@@ -98,16 +98,17 @@ export default function Home() {
         </div>
 
         {/* Right Image */}
-       <div className="flex justify-center md:justify-end w-full mt-30">
+     <div className="flex justify-center items-center  md:justify-end w-full mt-[30px]">
   <Image
-    src="/pizza.png"
+    src="/Imgbg.png"
     alt="Delicious food"
-    width={497}
-    height={297}
-    className="rounded-full  object-cover object-bottom"
+    width={400}
+    height={100}
+    className="rounded-full object-cover object-bottom shadow-lg shadow-black"
     priority
   />
 </div>
+
 
       </div>
 
