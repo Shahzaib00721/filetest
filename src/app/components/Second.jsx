@@ -48,9 +48,11 @@ export default function Second() {
                 className="w-full h-56 object-cover rounded-lg"
               />
               {/* Discount Badge */}
-              <div className="absolute bottom-0 left-0 bg-yellow-500 text-white font-bold px-4 py-2 rounded-tr-lg flex items-baseline">
-                <span className="text-4xl">{item.discount}</span>
-                <span className="text-sm ml-1">% Off</span>
+              <div className="absolute bottom-0 left-0 w-30 text-center  bg-yellow-500 text-white font-bold px-4 py-2 rounded-tr-[20px] flex items-center">
+                <span className="text-5xl ">{item.discount}</span>
+                <span className="text-md  ml-1  " >% Off</span>
+      
+
               </div>
             </div>
 

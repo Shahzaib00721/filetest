@@ -60,7 +60,7 @@ export default function PopularItems() {
         >
           {items.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white shadow-lg rounded-[16px] overflow-hidden">
+              <div className="bg-white  rounded-[16px] overflow-hidden">
                 <Image
                   src={item.img}
                   alt={item.name}

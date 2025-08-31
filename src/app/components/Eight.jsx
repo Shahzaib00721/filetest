@@ -56,9 +56,9 @@ const InstallAppSection = () => {
       <div className="max-w-6xl mx-auto mt-30 flex flex-col-reverse md:flex-row items-center md:items-start space-y-12 md:space-y-0 md:space-x-20">
         {/* Images on left */}
         <div className="relative pt-20 w-full h-100 max-w-md ">
-          <div className="relative  left-0 h-104 md:w-60 md:left-55 md:h-105">
+          <div className="relative  left-0 h-104 md:w-60 md:left-55 md:h-93">
             <Image
-              src="/iPhone.svg" // Replace with your first phone screenshot
+              src="/Shadow.svg" // Replace with your first phone screenshot
               alt="Order App Screen 1"
               layout="fill"
 
@@ -68,7 +68,7 @@ const InstallAppSection = () => {
           </div>
           <div className="absolute  -top-16 left-0 w-60 h-104 md:w-72 md:h-88 mt-40 z-10">
             <Image
-              src="/Shadow.svg" 
+              src="/iphone.svg" 
               // Replace with your second phone screenshot
               alt="Order App Screen 2"
               layout="fill"

@@ -13,8 +13,8 @@ import NewOne from "./components/NewOne";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
 import TwoFooter from "./components/TwoFooter";
-
-
+import { Bike } from "lucide-react";
+import { ShoppingBag } from "lucide-react";
 import { MapPin, Search, Truck, Package, LogIn } from "lucide-react";
 
 export default function Home() {
@@ -48,7 +48,7 @@ export default function Home() {
             <span className="hidden sm:inline">Search Food</span>
           </button>
           <button 
-            className="px-3   sm:px-4 py-2 bg-gradient-to-r  bg-transparent rounded-md text-orange-500  shadow-lg font-semibold hover:opacity-90 flex items-center gap-1 focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition text-sm"
+            className="px-3   sm:px-4 py-2 bg-gradient-to-r  bg-transparent rounded-md text-orange-500  shadow-lg  font-semibold hover:opacity-90 flex items-center gap-1 focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition text-sm"
             aria-label="Login"
           >
             <LogIn className="w-4 h-4 flex-shrink-0 " aria-hidden="true" /> 
@@ -70,35 +70,39 @@ export default function Home() {
           </p>
 
           {/* Search Box */}
-          <div className="bg-white p-4 rounded-[8px] shadow-md h-70 max-w-100  mx-auto md:mx-0 md:max-w-160 md:h-40 ">
+          <div className="bg-white p-4 rounded-[8px] shadow-md h-70 max-w-100  mx-auto md:mx-0 md:max-w-170 md:h-40 ">
             
             {/* Delivery / Pickup Toggle - responsive */}
-            <div className="flex flex-col sm:flex-row  rounded-[16px] overflow-hidden mb-4">
-              <button className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 text-gray-600 hover:text-orange-500 font-semibold transition w-full sm:w-auto">
-                <Truck size={18} /> Delivery
+            <div className=" flex flex-col sm:flex-row   rounded-[16px] overflow-hidden mb-4">
+              <button className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 text-orange-600 hover:text-orange-500 font-semibold transition w-full sm:w-auto">
+                <Bike size={20} /> Delivery
               </button>
-              <button className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 text-gray-600 hover:text-orange-500 font-semibold transition w-full sm:w-auto">
-                <Package size={18} /> Pickup
+              <button className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 text-orange-600 hover:text-orange-500 font-semibold transition w-full sm:w-auto">
+                <ShoppingBag size={20} /> Pickup
               </button>
+              <hr/>
             </div>
 
             {/* Input + Button */}
-            <div className="flex flex-col sm:flex-row mt-3 gap-2  ">
+            
+            <div className="flex flex-col sm:flex-row mt-10 md:mt-6 gap-2  ">
+              
                
               <input
+              
                 type="text"
                 placeholder="Enter Your Address"
                 className="flex-1 border border-gray-300  text-gray-500 rounded-[16px] sm:rounded-l-md sm:rounded-[8px] px-3 py-2 text-sm focus:outline-none w-full"
               />
-              <button className="bg-orange-500 text-white px-4 py-2 rounded-[8px] sm:rounded-r-md sm:rounded-[8px] flex items-center justify-center gap-2 hover:bg-orange-600 transition w-full sm:w-auto">
-                <Search size={16} /> Find Food
+              <button className="bg-orange-500 text-white font-bold px-6 py-3 rounded-[8px] sm:rounded-r-md sm:rounded-[8px] flex items-center justify-center gap-2 hover:bg-orange-600 transition w-full sm:w-auto">
+                <Search size={20} /> Find Food
               </button>
             </div>
           </div>
         </div>
 
         {/* Right Image */}
-     <div className="flex justify-center items-center mt-20  md:justify-end w-full md:mt-[150px]">
+     <div className="flex justify-center items-center mt-15  md:justify-end w-full md:mt-[150px]">
   <Image
     src="/imgbg.png"
     alt="Delicious food"
