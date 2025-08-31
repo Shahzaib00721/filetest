@@ -2,7 +2,7 @@
 "use client";
 export default function Home() {
   return (
-    <div className="flex justify-center items-center  px-4 pt-0">
+    <div className="flex justify-center items-center rounded-[16px] px-4 pt-0">
       <div className="max-w-5xl mt-10 w-full bg-white rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
         {/* Left Side - Image */}
         <div className="md:w-2/2 order-first md:order-first">

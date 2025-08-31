@@ -68,7 +68,7 @@ const InstallAppSection = () => {
           </div>
           <div className="absolute  -top-16 left-0 w-60 h-104 md:w-72 md:h-88 mt-40 z-10">
             <Image
-              src="/iphone.svg" 
+              src="/iPhone.svg" 
               // Replace with your second phone screenshot
               alt="Order App Screen 2"
               layout="fill"
