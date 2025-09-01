@@ -49,7 +49,7 @@ export default function PopularItems() {
         <Swiper
           modules={[Navigation]}
           navigation
-          spaceBetween={20}
+          spaceBetween={10}
           breakpoints={{
             320: { slidesPerView: 1 },
             640: { slidesPerView: 2 },

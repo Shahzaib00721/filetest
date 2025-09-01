@@ -85,19 +85,21 @@ export default function Home() {
 
             {/* Input + Button */}
             
-            <div className="flex flex-col sm:flex-row mt-10 md:mt-6 gap-2  ">
-              
-               
-              <input
-              
-                type="text"
-                placeholder="Enter Your Address"
-                className="flex-1 border border-gray-300  text-gray-500 rounded-[16px] sm:rounded-l-md sm:rounded-[8px] px-3 py-2 text-sm focus:outline-none w-full"
-              />
-              <button className="bg-orange-500 text-white font-bold px-6 py-3 rounded-[8px] sm:rounded-r-md sm:rounded-[8px] flex items-center justify-center gap-2 hover:bg-orange-600 transition w-full sm:w-auto">
-                <Search size={20} /> Find Food
-              </button>
-            </div>
+     <div className="flex flex-col sm:flex-row mt-10 md:mt-6 gap-2  ">
+  <div className="relative flex-1 pt-1 ">
+    <MapPin size={22} className="absolute left-3 top-1/2 -translate-y-1/2 text-orange-400" />
+    <input
+      type="text"
+      placeholder="Enter Your Address"
+      className="flex-1 border border-gray-300  text-gray-500 rounded-[16px] sm:rounded-l-md sm:rounded-[8px] px-5 py-3 text-sm focus:outline-none w-full pl-10"
+    />
+  </div>
+  <button className="bg-orange-500 text-white font-bold px-6 py-3 rounded-[8px] sm:rounded-r-md sm:rounded-[8px] flex items-center justify-center gap-2 hover:bg-orange-600 transition w-full sm:w-auto">
+    <Search size={20} /> Find Food
+  </button>
+</div>
+
+
           </div>
         </div>
 
