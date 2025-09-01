@@ -71,6 +71,7 @@ export default function PopularItems() {
                 <div className="p-4">
                   <h3 className="text-lg text-black font-semibold">{item.name}</h3>
                   <div className="flex items-center gap-1 text-orange-500 text-sm">
+                    
                     <MapPin size={14} /> {item.place}
                   </div>
                   <p className="text-black font-bold mt-1">{item.price}</p>

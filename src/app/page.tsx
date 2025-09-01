@@ -35,7 +35,7 @@ export default function Home() {
         <div className="hidden md:flex items-center font-extrabold text-sm text-gray-700 truncate max-w-xs">
           Deliver to: 
           <MapPin className="w-4 h-4 text-orange-500 mx-1 flex-shrink-0" aria-hidden="true" />
-          <span className="font-bold truncate">Mohammadpur Bus Stand, Dhaka</span>
+          <span className="font-medium truncate">Current location Mohammadpur Bus Stand, Dhaka</span>
         </div>
 
         {/* Right Actions */}
@@ -44,11 +44,11 @@ export default function Home() {
             className="flex items-center gap-1 text-gray-600 hover:text-black transition"
             aria-label="Search Food"
           >
-            <Search className="w-4 h-4 flex-shrink-0" aria-hidden="true" /> 
+            <Search className="w-4 h-4 flex-shrink-0 text-orange-500 font-bold" aria-hidden="true" /> 
             <span className="hidden sm:inline">Search Food</span>
           </button>
           <button 
-            className="px-3   sm:px-4 py-2 bg-gradient-to-r  bg-transparent rounded-md text-orange-500  shadow-lg  font-semibold hover:opacity-90 flex items-center gap-1 focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition text-sm"
+            className="px-3   sm:px-4 py-2 bg-gradient-to-r  bg-transparent rounded-md text-orange-500  shadow-orange-500 shadow-2xl font-semibold hover:opacity-90 flex items-center gap-1 focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition text-sm"
             aria-label="Login"
           >
             <LogIn className="w-4 h-4 flex-shrink-0 " aria-hidden="true" /> 
@@ -77,12 +77,14 @@ export default function Home() {
               <button className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 text-orange-600 hover:text-orange-500 font-semibold transition w-full sm:w-auto">
                 <Bike size={20} /> Delivery
               </button>
-              <button className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 text-orange-600 hover:text-orange-500 font-semibold transition w-full sm:w-auto">
+              
+              <button className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 text-gray-500 hover:text-orange-500 font-semibold transition w-full sm:w-auto">
                 <ShoppingBag size={20} /> Pickup
               </button>
+            
               <hr/>
             </div>
-
+<div className="bg-gray-100 h-0.5 w-full sm:w-[131px] md:w-131"></div>
             {/* Input + Button */}
             
      <div className="flex flex-col sm:flex-row mt-10 md:mt-6 gap-2  ">
