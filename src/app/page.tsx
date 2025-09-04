@@ -26,7 +26,7 @@ export default function Home() {
       <header className="bg-white shadow-sm px-4 md:px-6 py-3 flex justify-between items-center">
         
         {/* Logo */}
-        <div className="flex items-center  font-extrabold text-lg sm:text-xl text-orange-500 md:pl-15">
+        <div className="flex items-center  font-extrabold text-2xl sm:text-xl text-orange-500 md:pl-15">
           <Truck className="w-6 h-6 flex-shrink-0" aria-hidden="true" /> 
           food<span className=" text-amber-400">waGon</span>
         </div>
@@ -44,14 +44,14 @@ export default function Home() {
             className="flex items-center gap-1 text-gray-600 hover:text-black transition"
             aria-label="Search Food"
           >
-            <Search className="w-4 h-4 flex-shrink-0 text-orange-500 font-bold" aria-hidden="true" /> 
+            <Search className="w-5 h-5  flex-shrink-0 text-orange-500 font-bold" aria-hidden="true" /> 
             <span className="hidden sm:inline">Search Food</span>
           </button>
           <button 
             className="px-3   sm:px-4 py-2 bg-gradient-to-r  bg-transparent rounded-md text-orange-500  shadow-orange-500 shadow-2xl font-semibold hover:opacity-90 flex items-center gap-1 focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition text-sm"
             aria-label="Login"
           >
-            <LogIn className="w-4 h-4 flex-shrink-0 " aria-hidden="true" /> 
+            <LogIn className="w-5 h-5 flex-shrink-0 " aria-hidden="true" /> 
             <span className="hidden sm:inline ">Login</span>
           </button>
         </div>

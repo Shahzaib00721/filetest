@@ -12,6 +12,7 @@ const InstallAppSection = () => {
             <Image
               src="/Icon (5).svg" // Add your discount tag icon here
               alt="Daily Discounts"
+              
               layout="fill"
               objectFit="contain"
             />

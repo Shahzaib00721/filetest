@@ -56,7 +56,7 @@ const restaurants = [
 export default function FeaturedRestaurants() {
   return (
     <div className="max-w-7xl  mx-auto px-4 py-10 bg-white md:px-20 ">
-      <h2 className="text-center mt-7 font-extrabold text-black text-3xl mb-15">Featured Restaurants</h2>
+      <h2 className="text-center mt-7 font-extrabold text-black text-3xl leading-20 mb-15">Featured Restaurants</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {restaurants.map((rest) => (
           <div key={rest.id} className="space-y-2">
