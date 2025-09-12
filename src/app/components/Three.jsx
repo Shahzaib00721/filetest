@@ -3,22 +3,22 @@ import Image from "next/image";
 export default function Three() {
   const steps = [
     {
-      img: "/icons (4).png", 
+      img: "/Icons (4).png", 
       title: "Select location",
       desc: "Choose the location where your food will be delivered.",
     },
     {
-      img: "/icons (1).png",
+      img: "/Icons (1).png",
       title: "Choose order",
       desc: "Check over hundreds of menus to pick your favorite food.",
     },
     {
-      img: "/icons (2).png",
+      img: "/Icons (2).png",
       title: "Pay advanced",
       desc: "It's quick, safe, and simple. Select several methods of payment.",
     },
     {
-      img: "/icons (3).png",
+      img: "/Icons (3).png",
       title: "Enjoy meals",
       desc: "Food is made and delivered directly to your home.",
     },
