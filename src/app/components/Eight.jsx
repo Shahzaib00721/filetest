@@ -102,6 +102,7 @@ const InstallAppSection = () => {
           </div>
         </div>
       </div>
+      
      
     </div>
   );

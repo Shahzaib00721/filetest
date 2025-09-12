@@ -13,6 +13,7 @@ import NewOne from "./components/NewOne";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
 import TwoFooter from "./components/TwoFooter";
+
 import { Bike } from "lucide-react";
 import { ShoppingBag } from "lucide-react";
 import { MapPin, Search, Truck, Package, LogIn } from "lucide-react";
@@ -136,6 +137,8 @@ export default function Home() {
     <Seven/>
 
     <Eight/>
+
+    
 
     <Nine/>
 

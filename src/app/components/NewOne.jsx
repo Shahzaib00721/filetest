@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <div className="flex justify-center items-center rounded-[16px]   px-4 pt-4 my-10">
-      <div className="max-w-5xl mt-10 w-full bg-white rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
+      <div className="max-w-5xl mt-10 w-full bg-white rounded-[16px] shadow-lg overflow-hidden flex flex-col md:flex-row">
         {/* Left Side - Text */}
         <div className="p-6  flex flex-col  md:w-1/2">
           <h2 className="text-3xl font-extrabold text-gray-800 leading-10 mb-6 ">
