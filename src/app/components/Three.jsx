@@ -3,22 +3,23 @@ import { MapPin, Utensils, Receipt, Pizza } from "lucide-react";
 export default function Three() {
   const steps = [
     {
-      icon: <MapPin size={40} className="text-white" />,
+      
+      icon: <MapPin size={50} className="text-white" />,
       title: "Select location",
       desc: "Choose the location where your food will be delivered.",
     },
     {
-      icon: <Utensils size={40} className="text-white" />,
+      icon: <Utensils size={50} className="text-white" />,
       title: "Choose order",
       desc: "Check over hundreds of menus to pick your favorite food.",
     },
     {
-      icon: <Receipt size={40} className="text-white" />,
+      icon: <Receipt size={50} className="text-white" />,
       title: "Pay advanced",
       desc: "It's quick, safe, and simple. Select several methods of payment.",
     },
     {
-      icon: <Pizza size={40} className="text-white" />,
+      icon: <Pizza size={50} className="text-white" />,
       title: "Enjoy meals",
       desc: "Food is made and delivered directly to your home.",
     },

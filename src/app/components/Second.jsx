@@ -50,7 +50,7 @@ export default function Second() {
               {/* Discount Badge */}
               <div className="absolute bottom-0 left-0 w-30 text-center  bg-yellow-500 text-white font-bold px-4 py-2 rounded-tr-[20px] flex items-center">
                 <span className="text-5xl ">{item.discount}</span>
-                <span className="text-md  ml-1  " >% Off</span>
+                <span className="text-2xl text-left  ml-0  " >% Off</span>
       
 
               </div>

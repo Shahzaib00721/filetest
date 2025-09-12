@@ -29,6 +29,7 @@ const InstallAppSection = () => {
             <Image
               src="/Icon (6).svg" // Add your location pin icon here
               alt="Live Tracing"
+              
               layout="fill"
               objectFit="contain"
             />
@@ -101,6 +102,7 @@ const InstallAppSection = () => {
           </div>
         </div>
       </div>
+     
     </div>
   );
 };
