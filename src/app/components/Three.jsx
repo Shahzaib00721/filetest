@@ -3,22 +3,22 @@ import Image from "next/image";
 export default function Three() {
   const steps = [
     {
-      img: "/Icons (4).png", 
+      img: "/location.svg",
       title: "Select location",
       desc: "Choose the location where your food will be delivered.",
     },
     {
-      img: "/Icons (1).png",
+      img: "/Icons (1).svg",
       title: "Choose order",
       desc: "Check over hundreds of menus to pick your favorite food.",
     },
     {
-      img: "/Icons (2).png",
+      img: "/Icons (3).svg",
       title: "Pay advanced",
       desc: "It's quick, safe, and simple. Select several methods of payment.",
     },
     {
-      img: "/Icons (3).png",
+      img: "/Donut.svg",
       title: "Enjoy meals",
       desc: "Food is made and delivered directly to your home.",
     },
@@ -34,7 +34,7 @@ export default function Three() {
         {steps.map((step, i) => (
           <div key={i} className="flex flex-col items-center">
          
-            <div className="drop-shadow-[0_2px_5px_rgba(230,140,0,0.1)] w-48 h-48 flex items-center justify-center overflow-hidden">
+            <div className="drop-shadow-[0_2px_5px_rgba(230,140,0,0.1)] w-48 h-48 flex items-center justify-center  overflow-hidden">
               <Image
                 src={step.img}
                 alt={step.title}
